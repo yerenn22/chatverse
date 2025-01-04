@@ -19,14 +19,6 @@
 
 ```
 chatverse/
-├── README.md            # Project documentation
-├── bun.lockb            # Bun lockfile
-├── commitlint.config.js # Commit linting rules
-├── eslint.config.js     # ESLint configuration
-├── index.html           # Main HTML file
-├── package.json         # Project metadata and scripts
-├── postcss.config.js    # PostCSS configuration
-├── prettier.config.js   # Prettier configuration
 ├── public/              # Static assets
 │   └── vite.svg         # Example static asset
 ├── src/                 # Main source code
@@ -36,10 +28,18 @@ chatverse/
 │   ├── entities/        # Core entities of the domain (e.g., User, Message)
 │   ├── shared/          # Shared components, utilities, and styles
 │   └── widgets/         # Complex components combining features and entities
+├── index.html           # Main HTML file
+├── commitlint.config.js # Commit linting rules
+├── eslint.config.js     # ESLint configuration
+├── postcss.config.js    # PostCSS configuration
+├── prettier.config.js   # Prettier configuration
 ├── tailwind.config.js   # Tailwind CSS configuration
+├── package.json         # Project metadata and scripts
 ├── tsconfig.app.json    # TypeScript app-specific configuration
 ├── tsconfig.json        # TypeScript base configuration
 ├── tsconfig.node.json   # TypeScript Node.js-specific configuration
+├── bun.lockb            # Bun lockfile
+├── readme.md            # Project documentation
 └── vite.config.ts       # Vite configuration
 ```
 
