@@ -6,5 +6,16 @@ export default {
   printWidth: 100,
   semi: true,
   quoteProps: "consistent",
-  plugins: ["prettier-plugin-tailwindcss"],
+  plugins: ["@trivago/prettier-plugin-sort-imports"],
+  importOrder: [
+    "^app/(.*)$",
+    "^pages/(.*)$",
+    "^widgets/(.*)$",
+    "^features/(.*)$",
+    "^entities/(.*)$",
+    "^shared/(.*)$",
+    "^[./]",
+  ],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
 };
